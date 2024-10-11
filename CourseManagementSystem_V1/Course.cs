@@ -25,9 +25,15 @@ namespace CourseManagementSystem_V1
         // Override ToString method
         public override string ToString()
         {
-            return $"ID: {CourseId}, Title: {Title}, Duration: {Duration}, Price: {Price:C}";
+            return $"ID: {CourseId}, Title: {Title}, Duration: {Duration}, Price: {Price}";
         }
-
+        public course1()
+        {
+            CourseId = "C_001";
+            Title = "python for beginners ";
+            Duration = "3 months ";
+            Price = 10;
+        }
 
 
     }

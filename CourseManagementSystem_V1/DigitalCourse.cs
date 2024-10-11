@@ -19,6 +19,13 @@ namespace CourseManagementSystem_V1
             this.CourseLink = courseLink;
             this.FileSize = fileSize;
         }
-        
+
+      public DisplayDigitalCourseInfo()
+        {
+            return(Console.WriteLine($"CourseId:{CourseId},Title:{Title},Duration:{Duration},Price:{Price},CourseLink:{CourseLink},FileSize:{FileSize}"));
+              
+
+        }
     }
+    
 }
