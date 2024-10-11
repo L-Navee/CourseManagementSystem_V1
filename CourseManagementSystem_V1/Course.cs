@@ -14,7 +14,14 @@ namespace CourseManagementSystem_V1
         public string Duration { get; set; }
         public decimal Price { get; set; }
 
-       
+        public Course(string courseId, string title, string duration, decimal price)
+        {
+            CourseId = courseId;
+            Title = title;
+            Duration = duration;
+            Price = price;
+        }
+
         
 
 
