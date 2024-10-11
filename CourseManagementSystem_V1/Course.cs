@@ -22,7 +22,12 @@ namespace CourseManagementSystem_V1
             Price = price;
         }
 
-        
+        // Override ToString method
+        public override string ToString()
+        {
+            return $"ID: {CourseId}, Title: {Title}, Duration: {Duration}, Price: {Price:C}";
+        }
+
 
 
     }
